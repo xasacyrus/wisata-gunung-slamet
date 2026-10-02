@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wisata Gunung Slamet — Paket &amp; Pemesanan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="layout">
+    <input type="radio" id="radio-beranda" name="halaman-nav" class="tab-radio" checked>
+    <input type="radio" id="radio-menu" name="halaman-nav" class="tab-radio">
+    <input type="radio" id="radio-cara" name="halaman-nav" class="tab-radio">
+    <input type="radio" id="radio-pesan" name="halaman-nav" class="tab-radio">
+    <input type="radio" id="radio-kontak" name="halaman-nav" class="tab-radio">
+
+    <aside>
+        <div class="logo">Wisata Gunung Slamet</div>
+        <div class="jam">Basecamp buka 05.00 &ndash; 20.00 WIB</div>
+        <nav>
+            <label for="radio-beranda" class="nav-link">Beranda</label>
+            <label for="radio-menu" class="nav-link">Paket Wisata</label>
+            <label for="radio-cara" class="nav-link">Cara Pesan</label>
+            <label for="radio-pesan" class="nav-link">Formulir</label>
+            <label for="radio-kontak" class="nav-link">Kontak</label>
+        </nav>
+    </aside>
+
+    <main>
+        <div id="halaman-beranda" class="halaman">
+            <div class="intro">
+                <h1>Taklukkan atap tertinggi Jawa Tengah, Gunung Slamet.</h1>
+                <p>Gunung Slamet (3.428 mdpl) adalah gunung tertinggi kedua di Pulau Jawa. Kami menyediakan paket pendakian, sewa perlengkapan, jasa pemandu, hingga wisata alam di sekitar kaki gunung untuk pengalaman yang aman dan berkesan.</p>
+            </div>
+            <section style="margin-top:36px;">
+                <h2>Perjalanan kami</h2>
+                <p class="lede">Cuplikan singkat suasana pendakian dan keindahan Gunung Slamet.</p>
+                <video controls>
+                    <source src="gunung slamet.mp4" type="video/mp4">
+                    Maaf, browser Anda tidak mendukung tag video HTML5.
+                </video>
+            </section>
+        </div>
+
+        <div id="halaman-menu" class="halaman">
+            <section style="margin-top:0;">
+                <h2>Paket Wisata</h2>
+                <p class="lede">Terbagi dalam tiga kelompok: jalur pendakian, fasilitas & layanan, dan wisata sekitar.</p>
+                <div class="grid-menu">
+                    <div class="kartu"><h3>Jalur Pendakian</h3><ul>
+                        <li><span>Jalur Bambangan (Purbalingga)</span><span>Rp 300.000</span></li>
+                        <li><span>Jalur Guci (Tegal)</span><span>Rp 275.000</span></li>
+                        <li><span>Jalur Baturraden (Banyumas)</span><span>Rp 275.000</span></li>
+                        <li><span>Jalur Kaliwadas (Brebes)</span><span>Rp 250.000</span></li>
+                    </ul></div>
+                    <div class="kartu"><h3>Fasilitas &amp; Layanan</h3><ul>
+                        <li><span>Sewa Tenda &amp; Perlengkapan</span><span>Rp 150.000</span></li>
+                        <li><span>Jasa Porter</span><span>Rp 200.000</span></li>
+                        <li><span>Pemandu Lokal</span><span>Rp 250.000</span></li>
+                    </ul></div>
+                    <div class="kartu"><h3>Wisata Sekitar</h3><ul>
+                        <li><span>Pemandian Air Panas Guci</span><span>Rp 25.000</span></li>
+                        <li><span>Curug Telu Baturraden</span><span>Rp 20.000</span></li>
+                    </ul></div>
+                    <div class="kartu"><h3>Harga ($)</h3><ul>
+                        <li><span>Jalur Bambangan</span><span>$19</span></li>
+                        <li><span>Jasa Porter</span><span>$13</span></li>
+                        <li><span>Pemandian Air Panas Guci</span><span>$1.6</span></li>
+                    </ul></div>
+                </div>
+            </section>
+        </div>
+
+        <div id="halaman-cara" class="halaman">
+            <section style="margin-top:0;">
+                <h2>Cara memesan</h2>
+
+                <h3 style="margin-top:0;color:var(--green);font-family:'Bitter',serif;font-size:1.05em;">Pemesanan daring (online)</h3>
+                <table>
+                    <tr><th>No</th><th>Langkah</th></tr>
+                    <tr><td>1</td><td>Lihat paket wisata dan harga pada halaman Paket Wisata.</td></tr>
+                    <tr><td>2</td><td>Buka halaman Formulir dan isi jumlah peserta tiap paket.</td></tr>
+                    <tr><td>3</td><td>Tekan "Hitung Total" untuk melihat rincian harga.</td></tr>
+                    <tr><td>4</td><td>Tekan "Pesan via WhatsApp" untuk mengirim pemesanan.</td></tr>
+                    <tr><td>5</td><td>Bayar melalui transfer sesuai instruksi admin.</td></tr>
+                </table>
+
+                <h3 style="margin-top:28px;color:var(--green);font-family:'Bitter',serif;font-size:1.05em;">Pendaftaran langsung di basecamp</h3>
+                <table>
+                    <tr><th>No</th><th>Langkah</th></tr>
+                    <tr><td>1</td><td>Datang langsung ke basecamp jalur pendakian pilihan Anda.</td></tr>
+                    <tr><td>2</td><td>Isi buku registrasi (SIMAKSI) dan tunjukkan identitas diri.</td></tr>
+                    <tr><td>3</td><td>Pilih paket sewa alat, porter, atau pemandu jika diperlukan.</td></tr>
+                    <tr><td>4</td><td>Lakukan pembayaran dan cek kelengkapan perlengkapan.</td></tr>
+                    <tr><td>5</td><td>Ikuti briefing keselamatan sebelum memulai pendakian.</td></tr>
+                    <tr><td>6</td><td>Mulai pendakian bersama rombongan atau pemandu.</td></tr>
+                </table>
+            </section>
+        </div>
+
+        <div id="halaman-pesan" class="halaman">
+            <section class="form-pesan" style="margin-top:0;">
+                <h2>Formulir pemesanan (daring)</h2>
+                <p class="lede">Isi jumlah peserta/unit tiap paket, lalu tekan "Hitung Total" untuk melihat rincian harga sebelum memesan via WhatsApp.</p>
+                <table>
+                    <tr><th>Paket</th><th>Harga</th><th>Jumlah</th></tr>
+                    <tr>
+                        <td>Jalur Bambangan</td><td>Rp 300.000</td>
+                        <td><input type="number" class="item-pesan" data-nama="Jalur Bambangan" data-harga="300000" min="0" value="0"></td>
+                    </tr>
+                    <tr>
+                        <td>Jalur Guci</td><td>Rp 275.000</td>
+                        <td><input type="number" class="item-pesan" data-nama="Jalur Guci" data-harga="275000" min="0" value="0"></td>
+                    </tr>
+                    <tr>
+                        <td>Jalur Baturraden</td><td>Rp 275.000</td>
+                        <td><input type="number" class="item-pesan" data-nama="Jalur Baturraden" data-harga="275000" min="0" value="0"></td>
+                    </tr>
+                    <tr>
+                        <td>Jalur Kaliwadas</td><td>Rp 250.000</td>
+                        <td><input type="number" class="item-pesan" data-nama="Jalur Kaliwadas" data-harga="250000" min="0" value="0"></td>
+                    </tr>
+                    <tr>
+                        <td>Sewa Tenda &amp; Perlengkapan</td><td>Rp 150.000</td>
+                        <td><input type="number" class="item-pesan" data-nama="Sewa Tenda dan Perlengkapan" data-harga="150000" min="0" value="0"></td>
+                    </tr>
+                    <tr>
+                        <td>Jasa Porter</td><td>Rp 200.000</td>
+                        <td><input type="number" class="item-pesan" data-nama="Jasa Porter" data-harga="200000" min="0" value="0"></td>
+                    </tr>
+                    <tr>
+                        <td>Pemandu Lokal</td><td>Rp 250.000</td>
+                        <td><input type="number" class="item-pesan" data-nama="Pemandu Lokal" data-harga="250000" min="0" value="0"></td>
+                    </tr>
+                    <tr>
+                        <td>Pemandian Air Panas Guci</td><td>Rp 25.000</td>
+                        <td><input type="number" class="item-pesan" data-nama="Pemandian Air Panas Guci" data-harga="25000" min="0" value="0"></td>
+                    </tr>
+                    <tr>
+                        <td>Curug Telu Baturraden</td><td>Rp 20.000</td>
+                        <td><input type="number" class="item-pesan" data-nama="Curug Telu Baturraden" data-harga="20000" min="0" value="0"></td>
+                    </tr>
+                </table>
+                <button type="button" class="btn btn-utama" onclick="hitungTotal()">Hitung Total</button>
+                <button type="button" class="btn btn-wa" onclick="pesanViaWhatsApp()">Pesan via WhatsApp</button>
+                <p id="hasil-total"></p>
+            </section>
+        </div>
+
+        <div id="halaman-kontak" class="halaman">
+            <section style="margin-top:0;">
+                <h2>Kontak &amp; alamat</h2>
+                <div class="kontak-alamat">
+                    <div class="kontak-list">
+                        <a href="https://wa.me/6281283378617" target="_blank">WhatsApp &mdash; +62 812-8337-8617</a>
+                        <a href="tel:+6281283378617">Telepon &mdash; +62 812-8337-8617</a>
+                    </div>
+                    <address>Wisata Gunung Slamet<br>Basecamp Bambangan, Kutabawa<br>Purbalingga, Jawa Tengah, Indonesia</address>
+                </div>
+            </section>
+            <footer>&copy; 2026 Wisata Gunung Slamet</footer>
+        </div>
+    </main>
+</div>
+
+<script>
+    function hitungTotal(){
+        var inputs=document.querySelectorAll('.item-pesan');
+        var total=0;
+        inputs.forEach(function(i){
+            var j=parseInt(i.value,10)||0;
+            total+=j*parseInt(i.dataset.harga,10);
+        });
+        document.getElementById('hasil-total').textContent='Total: Rp '+total.toLocaleString('id-ID');
+    }
+
+    function pesanViaWhatsApp(){
+        var inputs=document.querySelectorAll('.item-pesan');
+        var pesan='Halo, saya ingin memesan:%0A';
+        var total=0;
+        var ada=false;
+        inputs.forEach(function(i){
+            var j=parseInt(i.value,10)||0;
+            if(j>0){
+                ada=true;
+                var sub=j*parseInt(i.dataset.harga,10);
+                total+=sub;
+                pesan+='- '+i.dataset.nama+' x'+j+'%0A';
+            }
+        });
+        if(!ada){ alert('Silakan isi jumlah paket terlebih dahulu.'); return; }
+        pesan+='Total: Rp '+total.toLocaleString('id-ID');
+        window.open('https://wa.me/6281283378617?text='+pesan,'_blank');
+    }
+</script>
+</body>
+</html>
